@@ -2,10 +2,9 @@
 # It is queried by the internal Lunar Way tooling so changes to this file will
 # propagate to all Lunar Way developers.
 
-bitnami-labs/sealed-secrets=v0.7.0
-kubernetes/kops=1.11.1
-kubernetes-sigs/aws-iam-authenticator=v0.4.0
-lunarway/dextre=v0.0.8
-lunarway/release-manager=v0.0.40
-lunarway/shuttle=v0.9.0
-
+bitnami-labs/sealed-secrets::v0.7.0::https://github.com/bitnami-labs/sealed-secrets/releases/download/v0.7.0/kubeseal-darwin-amd64
+kubernetes/kops::1.11.1::https://github.com/kubernetes/kops/releases/download/1.11.1/kops-darwin-amd64
+kubernetes-sigs/aws-iam-authenticator::v0.4.0::https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/download/v0.4.0/aws-iam-authenticator_0.4.0_darwin_amd64
+lunarway/dextre::v0.0.8::https://github.com/lunarway/dextre/releases/download/v0.0.8/dextre-darwin-amd64
+lunarway/release-manager::v0.0.40::https://github.com/lunarway/release-manager/releases/download/v0.0.40/hamctl-darwin-amd64
+lunarway/shuttle::v0.9.0::https://github.com/lunarway/shuttle/releases/download/v0.9.0/shuttle-darwin-amd64
