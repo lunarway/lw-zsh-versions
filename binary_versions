@@ -2,7 +2,7 @@
 # It is queried by the internal Lunar Way tooling so changes to this file will
 # propagate to all Lunar Way developers.
 
-bitnami-labs/sealed-secrets::v0.8.3::https://github.com/bitnami-labs/sealed-secrets/releases/download/v0.8.3/kubeseal-darwin-amd64
+bitnami-labs/sealed-secrets::v0.9.2::https://github.com/bitnami-labs/sealed-secrets/releases/download/v0.9.2/kubeseal-darwin-amd64
 kubernetes/kops::1.13.0::https://github.com/kubernetes/kops/releases/download/1.13.0/kops-darwin-amd64
 kubernetes/kubectl::v1.13.10::https://storage.googleapis.com/kubernetes-release/release/v1.13.10/bin/darwin/amd64/kubectl
 kubernetes-sigs/aws-iam-authenticator::v0.4.0::https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/download/v0.4.0/aws-iam-authenticator_0.4.0_darwin_amd64
