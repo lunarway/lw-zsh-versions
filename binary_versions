@@ -7,6 +7,6 @@ kubernetes/kops::1.15.0::https://github.com/kubernetes/kops/releases/download/1.
 kubernetes/kubectl::v1.15.5::https://storage.googleapis.com/kubernetes-release/release/v1.15.5/bin/darwin/amd64/kubectl
 kubernetes-sigs/aws-iam-authenticator::v0.4.0::https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/download/v0.4.0/aws-iam-authenticator_0.4.0_darwin_amd64
 lunarway/dextre::v0.0.8::https://github.com/lunarway/dextre/releases/download/v0.0.8/dextre-darwin-amd64
-lunarway/release-manager::v0.1.1::https://github.com/lunarway/release-manager/releases/download/v0.1.1/hamctl-darwin-amd64
-lunarway/release-manager-artifact::v0.1.2::https://github.com/lunarway/release-manager/releases/download/v0.1.2/artifact-darwin-amd64
+lunarway/release-manager::v0.3.0::https://github.com/lunarway/release-manager/releases/download/v0.3.0/hamctl-darwin-amd64
+lunarway/release-manager-artifact::v0.3.0::https://github.com/lunarway/release-manager/releases/download/v0.3.0/artifact-darwin-amd64
 lunarway/shuttle::v0.9.0::https://github.com/lunarway/shuttle/releases/download/v0.9.0/shuttle-darwin-amd64
