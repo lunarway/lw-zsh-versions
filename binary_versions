@@ -8,4 +8,4 @@ kubernetes/kubectl::v1.17.9::https://storage.googleapis.com/kubernetes-release/r
 kubernetes-sigs/aws-iam-authenticator::v0.4.0::https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/download/v0.4.0/aws-iam-authenticator_0.4.0_darwin_amd64
 lunarway/release-manager::v0.10.1::https://github.com/lunarway/release-manager/releases/download/v0.10.1/hamctl-darwin-amd64
 lunarway/release-manager-artifact::v0.10.1::https://github.com/lunarway/release-manager/releases/download/v0.10.1/artifact-darwin-amd64
-lunarway/shuttle::v0.9.0::https://github.com/lunarway/shuttle/releases/download/v0.9.0/shuttle-darwin-amd64
+lunarway/shuttle::v0.10.1::https://github.com/lunarway/shuttle/releases/download/v0.10.1/shuttle-darwin-amd64
