@@ -6,6 +6,6 @@ bitnami-labs/sealed-secrets::v0.12.6::https://github.com/bitnami-labs/sealed-sec
 kubernetes/kops::v1.18.2::https://github.com/kubernetes/kops/releases/download/v1.18.2/kops-darwin-amd64
 kubernetes/kubectl::v1.18.14::https://storage.googleapis.com/kubernetes-release/release/v1.18.14/bin/darwin/amd64/kubectl
 kubernetes-sigs/aws-iam-authenticator::v0.4.0::https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/download/v0.4.0/aws-iam-authenticator_0.4.0_darwin_amd64
-lunarway/release-manager::v0.12.0::https://github.com/lunarway/release-manager/releases/download/v0.12.0/hamctl-darwin-amd64
-lunarway/release-manager-artifact::v0.12.0::https://github.com/lunarway/release-manager/releases/download/v0.12.0/artifact-darwin-amd64
+lunarway/release-manager::v0.12.2::https://github.com/lunarway/release-manager/releases/download/v0.12.2/hamctl-darwin-amd64
+lunarway/release-manager-artifact::v0.12.2::https://github.com/lunarway/release-manager/releases/download/v0.12.2/artifact-darwin-amd64
 lunarway/shuttle::v0.12.1::https://github.com/lunarway/shuttle/releases/download/v0.12.1/shuttle-darwin-amd64
