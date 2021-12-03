@@ -3,8 +3,8 @@
 # propagate to all Lunar Way developers.
 
 bitnami-labs/sealed-secrets::v0.12.6::https://github.com/bitnami-labs/sealed-secrets/releases/download/v0.12.6/kubeseal-darwin-amd64
-kubernetes/kops::v1.20.2::https://github.com/kubernetes/kops/releases/download/v1.20.2/kops-darwin-amd64
-kubernetes/kubectl::v1.20.8::https://storage.googleapis.com/kubernetes-release/release/v1.20.8/bin/darwin/amd64/kubectl
+kubernetes/kops::v1.21.4::https://github.com/kubernetes/kops/releases/download/v1.21.4/kops-darwin-amd64
+kubernetes/kubectl::v1.21.7::https://storage.googleapis.com/kubernetes-release/release/v1.21.7/bin/darwin/amd64/kubectl
 kubernetes-sigs/aws-iam-authenticator::v0.4.0::https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/download/v0.4.0/aws-iam-authenticator_0.4.0_darwin_amd64
 lunarway/release-manager::v0.12.2::https://github.com/lunarway/release-manager/releases/download/v0.12.2/hamctl-darwin-amd64
 lunarway/release-manager-artifact::v0.12.2::https://github.com/lunarway/release-manager/releases/download/v0.12.2/artifact-darwin-amd64
