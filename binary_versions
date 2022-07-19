@@ -2,10 +2,10 @@
 # It is queried by the internal Lunar Way tooling so changes to this file will
 # propagate to all Lunar Way developers.
 
-bitnami-labs/sealed-secrets::v0.12.6::https://github.com/bitnami-labs/sealed-secrets/releases/download/v0.12.6/kubeseal-darwin-amd64
+bitnami-labs/sealed-secrets::v0.16.0::https://github.com/bitnami-labs/sealed-secrets/releases/download/v0.16.0/kubeseal-darwin-amd64
 kubernetes/kops::v1.21.4::https://github.com/kubernetes/kops/releases/download/v1.21.4/kops-darwin-amd64
 kubernetes/kubectl::v1.21.11::https://storage.googleapis.com/kubernetes-release/release/v1.21.11/bin/darwin/amd64/kubectl
-kubernetes-sigs/aws-iam-authenticator::v0.4.0::https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/download/v0.4.0/aws-iam-authenticator_0.4.0_darwin_amd64
-lunarway/release-manager::v0.20.0::https://github.com/lunarway/release-manager/releases/download/v0.20.0/hamctl-darwin-amd64
-lunarway/release-manager-artifact::v0.20.0::https://github.com/lunarway/release-manager/releases/download/v0.20.0/artifact-darwin-amd64
-lunarway/shuttle::v0.14.0::https://github.com/lunarway/shuttle/releases/download/v0.14.0/shuttle-darwin-amd64
+kubernetes-sigs/aws-iam-authenticator::v0.5.3::https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/download/v0.5.3/aws-iam-authenticator_0.5.3_darwin_amd64
+lunarway/release-manager::v0.22.3::https://github.com/lunarway/release-manager/releases/download/v0.22.3/hamctl-darwin-amd64
+lunarway/release-manager-artifact::v0.22.3::https://github.com/lunarway/release-manager/releases/download/v0.22.3/artifact-darwin-amd64
+lunarway/shuttle::v0.15.1::https://github.com/lunarway/shuttle/releases/download/v0.15.1/shuttle-darwin-amd64
