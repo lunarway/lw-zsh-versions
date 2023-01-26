@@ -9,3 +9,4 @@ kubernetes-sigs/aws-iam-authenticator::v0.5.3::https://github.com/kubernetes-sig
 lunarway/release-manager::v0.24.0::https://github.com/lunarway/release-manager/releases/download/v0.24.0/hamctl-darwin-amd64
 lunarway/release-manager-artifact::v0.24.0::https://github.com/lunarway/release-manager/releases/download/v0.24.0/artifact-darwin-amd64
 lunarway/shuttle::v0.16.1::https://github.com/lunarway/shuttle/releases/download/v0.16.1/shuttle-darwin-amd64
+lunarway/async-schema-tooling::v0.4.0::https://github.com/lunarway/async-schema-tooling/releases/download/v0.4.0/async-schema-tooling-darwin-amd64
