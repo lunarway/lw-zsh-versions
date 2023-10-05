@@ -2,7 +2,7 @@
 # It is queried by the internal Lunar Way tooling so changes to this file will
 # propagate to all Lunar Way developers.
 
-bitnami-labs/sealed-secrets::v0.24.0::https://github.com/bitnami-labs/sealed-secrets/releases/download/v0.24.0/kubeseal-0.23.1-darwin-amd64.tar.gz
+bitnami-labs/sealed-secrets::v0.24.1::https://github.com/bitnami-labs/sealed-secrets/releases/download/v0.24.1/kubeseal-0.24.1-darwin-amd64.tar.gz
 kubernetes/kubectl::v1.24.10::https://storage.googleapis.com/kubernetes-release/release/v1.24.10/bin/darwin/amd64/kubectl
 lunarway/release-manager::v0.27.1::https://github.com/lunarway/release-manager/releases/download/v0.27.1/hamctl-darwin-amd64
 lunarway/release-manager-artifact::v0.26.7::https://github.com/lunarway/release-manager/releases/download/v0.24.0/artifact-darwin-amd64
