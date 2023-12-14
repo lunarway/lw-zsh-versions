@@ -6,4 +6,4 @@ bitnami-labs/sealed-secrets::v0.24.4::https://github.com/bitnami-labs/sealed-sec
 kubernetes/kubectl::v1.26.8::https://storage.googleapis.com/kubernetes-release/release/v1.26.8/bin/darwin/amd64/kubectl
 lunarway/release-manager::v0.27.3::https://github.com/lunarway/release-manager/releases/download/v0.27.3/hamctl-darwin-amd64
 lunarway/release-manager-artifact::v0.26.7::https://github.com/lunarway/release-manager/releases/download/v0.24.0/artifact-darwin-amd64
-lunarway/shuttle::v0.21.0::https://github.com/lunarway/shuttle/releases/download/v0.21.0/shuttle-darwin-amd64
+lunarway/shuttle::v0.21.1::https://github.com/lunarway/shuttle/releases/download/v0.21.1/shuttle-darwin-amd64
