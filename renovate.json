@@ -1,6 +1,14 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "local>lunarway/renovate-config"
+  "extends": ["local>lunarway/renovate-config"],
+  "regexManagers": [
+    {
+      "fileMatch": ["^golang_versions$"],
+      "matchStrings": [
+        "(?<depName>.*?)::go\\.lunarway\\.com/.+@(?<currentValue>v\\d+\\.\\d+\\.\\d+)"
+      ],
+      "datasourceTemplate": "github-releases",
+      "versioningTemplate": "semver"
+    }
   ]
 }
