@@ -5,7 +5,7 @@
     {
       "fileMatch": ["^golang_versions$"],
       "matchStrings": [
-        "(?<depName>.*?)::go\\.lunarway\\.com/.+@(?<currentValue>v\\d+\\.\\d+\\.\\d+)"
+        ".*::(?<depName>.*?)@(?<currentValue>v\\d+\\.\\d+\\.\\d+)"
       ],
       "datasourceTemplate": "github-releases",
       "versioningTemplate": "semver"
