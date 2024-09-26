@@ -1,4 +1,4 @@
 # This file contains the versions of managed golang releases. 
 # It is used by Lunar tooling to decide which versions of golang binaries should be installed and maintained
 
-lunarctl::go.lunarway.com/lunarctl@v0.8.0
+lunarctl::https://github.com/lunarway/lunarctl@v0.8.0
