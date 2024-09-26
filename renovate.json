@@ -7,7 +7,7 @@
       "matchStrings": [
         ".*::(?<depName>.*?)@(?<currentValue>v\\d+\\.\\d+\\.\\d+)"
       ],
-      "datasourceTemplate": "golang-version",
+      "datasourceTemplate": "go",
       "versioningTemplate": "semver"
     }
   ]
