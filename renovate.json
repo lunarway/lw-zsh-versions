@@ -5,7 +5,7 @@
     {
       "fileMatch": ["^golang_versions$"],
       "matchStrings": [
-        ".*::(?<depName>.*?)@(?<currentValue>v\\d+\\.\\d+\\.\\d+)"
+        ".*::https://github.com/(?<depName>.*?)@(?<currentValue>v\\d+\\.\\d+\\.\\d+)"
       ],
       "datasourceTemplate": "github-releases",
       "versioningTemplate": "semver"
