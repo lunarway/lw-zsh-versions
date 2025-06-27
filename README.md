@@ -1,5 +1,5 @@
 # lw-zsh-versions
-Version information of development tools used by Lunar Way developers
+Version information of development tools used by Lunar developers
 
 ## file formats
 Supports the following formats:
