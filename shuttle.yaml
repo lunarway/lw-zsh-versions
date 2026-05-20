@@ -1,5 +1,5 @@
 plan: false
 vars:
   service: lw-zsh-versions
-  squad: esa
+  squad: dark-matter
   domain: developer-productivity
