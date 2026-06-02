@@ -14,9 +14,8 @@
       "description": "regex manager for lw-zsh-versions",
       "fileMatch": ["binary_versions"],
       "matchStrings": [
-        "(?<depName>.*?)::(?<currentValue>v?[0-9]+\\.[0-9]+\\.[0-9]+)::",
-        "(?<depName>.*?)::v?[0-9]+\\.[0-9]+\\.[0-9]+::.*\\/releases\\/download\\/(?<currentValue>v?[0-9]+\\.[0-9]+\\.[0-9]+)\\/",
-        "(?<depName>.*?)::v?[0-9]+\\.[0-9]+\\.[0-9]+::.*\\/releases\\/download\\/v?[0-9]+\\.[0-9]+\\.[0-9]+\\/.*-(?<currentValue>v?[0-9]+\\.[0-9]+\\.[0-9]+)"
+        "(?<depName>[^:]+)::(?<currentValue>v?[0-9]+\\.[0-9]+\\.[0-9]+)::https://github\\.com/(?<packageName>[^/]+/[^/]+)/",
+        "(?<depName>[^:]+)::(?<currentValue>v?[0-9]+\\.[0-9]+\\.[0-9]+)::(?!https://github\\.com)"
       ],
       "datasourceTemplate": "github-releases",
       "versioningTemplate": "semver"
