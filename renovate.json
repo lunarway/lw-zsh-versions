@@ -1,6 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["local>lunarway/renovate-config"],
+  "packageRules": [
+    {
+      "description": "sealed-secrets and kubectl are updated via k8s upgrades, not Renovate",
+      "matchDepNames": ["bitnami-labs/sealed-secrets", "kubernetes/kubectl"],
+      "enabled": false
+    }
+  ],
   "regexManagers": [
     {
       "fileMatch": ["^golang_versions$"],
