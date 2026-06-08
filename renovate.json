@@ -8,9 +8,10 @@
       "enabled": false
     }
   ],
-  "regexManagers": [
+  "customManagers": [
     {
-      "fileMatch": ["^golang_versions$"],
+      "customType": "regex",
+      "managerFilePatterns": ["/^golang_versions$/"],
       "matchStrings": [
         ".*::(?<depName>.*?)@(?<currentValue>v\\d+\\.\\d+\\.\\d+)"
       ],
@@ -18,11 +19,12 @@
       "versioningTemplate": "semver"
     },
     {
+      "customType": "regex",
       "description": "regex manager for lw-zsh-versions",
-      "fileMatch": ["binary_versions"],
+      "managerFilePatterns": ["/binary_versions/"],
       "matchStrings": [
-        "(?<depName>[^:]+)::(?<currentValue>v?[0-9]+\\.[0-9]+\\.[0-9]+)::https://github\\.com/(?<packageName>[^/]+/[^/]+)/",
-        "(?<depName>[^:]+)::(?<currentValue>v?[0-9]+\\.[0-9]+\\.[0-9]+)::(?!https://github\\.com)"
+        "(?<depName>[^\\n:]+)::(?<currentValue>v?[0-9]+\\.[0-9]+\\.[0-9]+)::https://github\\.com/(?<packageName>[^/]+/[^/]+)/",
+        "(?<depName>[^\\n:]+)::(?<currentValue>v?[0-9]+\\.[0-9]+\\.[0-9]+)::https://[^g][^\\n]*"
       ],
       "datasourceTemplate": "github-releases",
       "versioningTemplate": "semver"
