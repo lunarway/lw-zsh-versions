@@ -20,10 +20,20 @@
     },
     {
       "customType": "regex",
-      "description": "regex manager for lw-zsh-versions",
+      "description": "binary_versions entries hosted on github releases",
       "managerFilePatterns": ["/binary_versions/"],
       "matchStrings": [
-        "(?<depName>[^\\n:]+)::(?<currentValue>v?[0-9]+\\.[0-9]+\\.[0-9]+)::https://github\\.com/(?<packageName>[^/]+/[^/]+)/",
+        "(?<depName>[^\\n:]+)::(?<currentValue>v?[0-9]+\\.[0-9]+\\.[0-9]+)::https://github\\.com/(?<packageName>[^/]+/[^/]+)/releases/download/v?[0-9]+\\.[0-9]+\\.[0-9]+/(?<asset>[^\\n]+)"
+      ],
+      "autoReplaceStringTemplate": "{{{depName}}}::{{{newValue}}}::https://github.com/{{{packageName}}}/releases/download/{{{newValue}}}/{{{asset}}}",
+      "datasourceTemplate": "github-releases",
+      "versioningTemplate": "semver"
+    },
+    {
+      "customType": "regex",
+      "description": "binary_versions entries hosted outside github releases",
+      "managerFilePatterns": ["/binary_versions/"],
+      "matchStrings": [
         "(?<depName>[^\\n:]+)::(?<currentValue>v?[0-9]+\\.[0-9]+\\.[0-9]+)::https://[^g][^\\n]*"
       ],
       "datasourceTemplate": "github-releases",
