@@ -5,5 +5,5 @@
 bitnami-labs/sealed-secrets::v0.37.0::https://github.com/bitnami-labs/sealed-secrets/releases/download/v0.37.0/kubeseal-0.37.0-darwin-arm64.tar.gz
 kubernetes/kubectl::v1.33.13::https://dl.k8s.io/release/v1.33.13/bin/darwin/arm64/kubectl
 lunarway/release-manager::v0.35.0::https://github.com/lunarway/release-manager/releases/download/v0.35.0/hamctl-darwin-arm64
-lunarway/release-manager-artifact::v0.35.0::https://github.com/lunarway/release-manager/releases/download/v0.35.0/artifact-darwin-arm64
+lunarway/release-manager-artifact::v0.26.7::https://github.com/lunarway/release-manager/releases/download/v0.26.7/artifact-darwin-arm64
 lunarway/shuttle::v0.24.3::https://github.com/lunarway/shuttle/releases/download/v0.24.3/shuttle-darwin-arm64
