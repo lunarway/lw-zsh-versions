@@ -3,8 +3,8 @@
   "extends": ["local>lunarway/renovate-config"],
   "packageRules": [
     {
-      "description": "sealed-secrets and kubectl are updated via k8s upgrades, not Renovate",
-      "matchDepNames": ["bitnami-labs/sealed-secrets", "kubernetes/kubectl"],
+      "description": "sealed-secrets and kubectl are updated via k8s upgrades, and the artifact CLI is pinned",
+      "matchDepNames": ["bitnami-labs/sealed-secrets", "kubernetes/kubectl", "lunarway/release-manager-artifact"],
       "enabled": false
     }
   ],
@@ -20,12 +20,34 @@
     },
     {
       "customType": "regex",
-      "description": "binary_versions entries hosted on github releases",
+      "description": "release-manager binary_versions entry",
       "managerFilePatterns": ["/binary_versions/"],
       "matchStrings": [
-        "(?<depName>[^\\n:]+)::(?<currentValue>v?[0-9]+\\.[0-9]+\\.[0-9]+)::https://github\\.com/(?<packageName>[^/]+/[^/]+)/releases/download/v?[0-9]+\\.[0-9]+\\.[0-9]+/(?<asset>[^\\n]+)"
+        "(?<depName>lunarway/release-manager)::(?<currentValue>v?[0-9]+\\.[0-9]+\\.[0-9]+)::https://github\\.com/lunarway/release-manager/releases/download/v?[0-9]+\\.[0-9]+\\.[0-9]+/hamctl-darwin-arm64"
       ],
-      "autoReplaceStringTemplate": "{{{depName}}}::{{{newValue}}}::https://github.com/{{{packageName}}}/releases/download/{{{newValue}}}/{{{asset}}}",
+      "autoReplaceStringTemplate": "lunarway/release-manager::{{{newValue}}}::https://github.com/lunarway/release-manager/releases/download/{{{newValue}}}/hamctl-darwin-arm64",
+      "datasourceTemplate": "github-releases",
+      "versioningTemplate": "semver"
+    },
+    {
+      "customType": "regex",
+      "description": "release-manager artifact binary_versions entry",
+      "managerFilePatterns": ["/binary_versions/"],
+      "matchStrings": [
+        "(?<depName>lunarway/release-manager-artifact)::(?<currentValue>v?[0-9]+\\.[0-9]+\\.[0-9]+)::https://github\\.com/(?<packageName>lunarway/release-manager)/releases/download/v?[0-9]+\\.[0-9]+\\.[0-9]+/artifact-darwin-amd64"
+      ],
+      "autoReplaceStringTemplate": "lunarway/release-manager-artifact::{{{newValue}}}::https://github.com/lunarway/release-manager/releases/download/{{{newValue}}}/artifact-darwin-amd64",
+      "datasourceTemplate": "github-releases",
+      "versioningTemplate": "semver"
+    },
+    {
+      "customType": "regex",
+      "description": "shuttle binary_versions entry",
+      "managerFilePatterns": ["/binary_versions/"],
+      "matchStrings": [
+        "(?<depName>lunarway/shuttle)::(?<currentValue>v?[0-9]+\\.[0-9]+\\.[0-9]+)::https://github\\.com/lunarway/shuttle/releases/download/v?[0-9]+\\.[0-9]+\\.[0-9]+/shuttle-darwin-arm64"
+      ],
+      "autoReplaceStringTemplate": "lunarway/shuttle::{{{newValue}}}::https://github.com/lunarway/shuttle/releases/download/{{{newValue}}}/shuttle-darwin-arm64",
       "datasourceTemplate": "github-releases",
       "versioningTemplate": "semver"
     },
